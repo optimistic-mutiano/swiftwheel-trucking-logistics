@@ -32,20 +32,33 @@ const Hero: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
-            <a
-              href="#contact"
-              className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl hover:shadow-blue-500/40"
-            >
-              Book a Truck
-              <ArrowRight className="w-5 h-5" />
-            </a>
-            <a
-              href="#services"
-              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-xl text-lg font-bold transition-all"
-            >
-              Our Services
-            </a>
-          </div>
+  {/* WhatsApp */}
+  <a
+    href="https://wa.me/2347063514453"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-xl text-lg font-bold transition-all shadow-xl hover:shadow-blue-500/40"
+  >
+    💬 Book a Truck on WhatsApp
+  </a>
+
+  {/* Call */}
+  <a
+    href="tel:+2347063514453"
+    className="inline-flex items-center justify-center gap-2 border border-white/30 text-white px-8 py-4 rounded-xl text-lg font-bold hover:bg-white/10 transition-all"
+  >
+    📞 Call Now
+  </a>
+
+  {/* Services */}
+  <a
+    href="#services"
+    className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white border border-white/30 px-8 py-4 rounded-xl text-lg font-bold transition-all"
+  >
+    Our Services
+  </a>
+</div>
+
 
           <div className="mt-12 grid grid-cols-2 md:grid-cols-3 gap-8">
             <div>

@@ -20,7 +20,10 @@ const StickyMobileCTA = () => {
           📞 Call
         </a>
       </div>
+      
+<StickyMobileCTA />
     </div>
+    
   );
 };
 
