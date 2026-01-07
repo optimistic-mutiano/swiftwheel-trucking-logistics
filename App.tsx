@@ -1,3 +1,4 @@
+import StickyMobileCTA from "./components/StickyMobileCTA";
 
 import React from 'react';
 import Navbar from './components/Navbar';
@@ -170,8 +171,10 @@ const App: React.FC = () => {
       </footer>
 
       <AIAssistant />
+      <StickyMobileCTA />
     </div>
   );
 };
 
 export default App;
+
