@@ -1,0 +1,8 @@
+
+{
+  "name": "Swiftwheel Trucking & Logistics Service",
+  "description": "Professional logistics and transportation website for Swiftwheel, based in Lagos, Nigeria. Features AI-powered logistics assistance, service listings, and contact management.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
