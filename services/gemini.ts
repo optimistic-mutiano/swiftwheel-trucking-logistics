@@ -1,3 +1,7 @@
+if (typeof window !== "undefined") {
+  console.warn("Gemini disabled in production");
+}
+export {};
 
 import { GoogleGenAI } from "@google/genai";
 import { BUSINESS_INFO } from "../constants";

@@ -7,7 +7,7 @@ import About from './components/About';
 import Services from './components/Services';
 import Reviews from './components/Reviews';
 import ContactForm from './components/ContactForm';
-import AIAssistant from './components/AIAssistant';
+// import AIAssistant from './components/AIAssistant';
 import { BUSINESS_INFO } from './constants';
 // Fixed: Added Truck to the list of imported icons from lucide-react
 import { MapPin, Phone, Clock, Instagram, Facebook, Twitter, Mail, Truck } from 'lucide-react';
@@ -170,7 +170,8 @@ const App: React.FC = () => {
         </div>
       </footer>
 
-      <AIAssistant />
+      {/* <AIassistant /> */}
+
       <StickyMobileCTA />
     </div>
   );
